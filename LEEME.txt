@@ -1,0 +1,14 @@
+DOLORES HOY - estructura inicial
+
+1. flutter create dolores_hoy
+2. Copia ENCIMA: lib/, test/, pubspec.yaml y secrets.json.example
+3. Borra test/widget_test.dart
+4. Abre el archivo .gitignore del proyecto y pega AL FINAL el contenido de agregar_al_gitignore.txt
+   (luego puedes borrar agregar_al_gitignore.txt)
+5. Copia secrets.json.example y nombra la copia secrets.json
+6. flutter pub get
+
+Ya incluido (el manual los da ANTES de las pruebas rojas):
+  lib/dominio/excepciones.dart     (Paso 2.1)
+  test/ayudas.dart                 (Paso 2.2, respuestas simuladas)
+  test/cliente_seguro_test.dart    (Paso 2.2, pruebas de la Ronda 2)
